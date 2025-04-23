@@ -12,11 +12,11 @@ export default function PortfolioPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 p-2">
                 <div className="rounded-lg space-y-4">
                     <p className="font-bold">菜單操作流程</p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eaZTRo65_Co?si=8qESr8x4bxuNPMvh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/eaZTRo65_Co?si=8qESr8x4bxuNPMvh" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
                 <div className="rounded-lg space-y-4">
                     <p className="font-bold">管理端操作流程</p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-LIjkFKoXxg?si=oakRDHSOFl5tkVCP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/-LIjkFKoXxg?si=oakRDHSOFl5tkVCP" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
             </div>
         </main>
