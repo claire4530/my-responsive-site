@@ -1,5 +1,6 @@
 import React from "react";
 
+
 export default function ContactPage() {
   return (
     <main className=" bg-gray-100 text-gray-800 flex justify-center items-center p-6 min-h-150">
@@ -22,7 +23,7 @@ export default function ContactPage() {
             text="claire4530@gmail.com"
           />
           <ContactItem 
-            icon={<span className="text-base font-bold text-green-600">LINE</span>}
+            icon="💬"
             title="Line"
             link="https://line.me/ti/p/claire45304530"
             text="claire45304530"
