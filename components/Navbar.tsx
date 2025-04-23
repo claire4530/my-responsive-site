@@ -17,7 +17,7 @@ export default function Navbar() {
     return (
         <main >
             <nav className="bg-gray-200 p-8 flex justify-between items-center sticky top-0 z-10 shadow-lg">
-                <div className="text-xl font-bold">Claire's Site</div>
+                <div className="text-xl font-bold">Claire&apos;s Site</div>
                 <ul className="hidden md:flex space-x-6">
                     {navItems.map(({label, path}, index) => (
                         <li key={index}>
