@@ -67,11 +67,12 @@ export default function Navbar() {
             <li key={index}>
               <Link
                 href={path}
-                className={`block text-gray-700 hover:text-blue-600 transition-colors duration-300 ${
-                  pathname === path ? "text-blue-600 font-semibold" : ""
-                }`}
+                className={`relative group text-gray-700 hover:text-blue-600 transition-colors duration-300 ${
+                    pathname === path ? "text-blue-600 font-semibold" : ""
+                  }`}
               >
                 {label}
+                <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-blue-500 transition-all duration-300 group-hover:w-full"></span>
               </Link>
             </li>
           ))}
